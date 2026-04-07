@@ -1,0 +1,5 @@
+node_modules
+learn_together/node_modules
+.DS_Store
+.env    
+express_lt/node_modules
