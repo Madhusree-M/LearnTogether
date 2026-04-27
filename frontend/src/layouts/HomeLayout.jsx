@@ -23,12 +23,12 @@ const HomeLayout = () => {
                     />
                 )}
 
-                <aside className={`fixed top-[88px] bottom-0 left-0 z-40 w-70 bg-[#040124] transform transition-transform duration-300 ease-in-out 
+                <aside className={`fixed top-[64px] bottom-0 left-0 z-40 w-70 bg-[#040124] transform transition-transform duration-300 ease-in-out 
                     ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"}`}>
                     <LeftSidebar />
                 </aside>
 
-                <main className={`pt-24 w-full transition-all duration-300 
+                <main className={`pt-20 w-full transition-all duration-300 
                     ${isSidebarOpen ? "md:pl-70" : "pl-0"} px-4 md:px-0`}>
                     <Outlet />
                 </main>
